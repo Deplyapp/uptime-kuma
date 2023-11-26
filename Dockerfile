@@ -13,8 +13,5 @@ COPY . .
 # Run the npm setup script to build your application
 RUN npm run setup
 
-# Expose port 3001
-EXPOSE 3001
-
 # Define the default command to run when the container starts
 CMD ["node", "server/server.js"]
